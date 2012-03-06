@@ -1,0 +1,54 @@
+tenderloin changelog
+
+=========Starting poing of Buildable github==============================================
+* Screenoff animations
+* MTP Mount working under windows (uncheck debugging in settings first)
+* Tweaked animation/transitions in framework
+* Modded Browser apk
+* Unlimited Browser
+* Custom Wallpapers
+* Custom Bookmarks
+* Launcher2 increased heap, transitions, animations
+* Battery mAh changed to 6000 from 1000
+* Classicnerd bootanimation
+* Classicnerd init.d tweaks
+* Removal of all uImage and TGA files during flash
+* Classicnerd default in moboot menu
+* Calculator has unlimited numbers
+* Unlocked Dock menu in Settings
+* Tweaked SystemUI
+* Scrolling tweaks moved from 4 pages down to 2 pages
+* Added bootsnd.sh for future bootsounds
+* Fixed Chown in system/tools
+* Enable EAP-pwd configuration in WiFi Settings (Android)
+* Fixed Typo in queue_property_triggers ident
+* Touchscreen fixes (Dees_troy)
+* Ramdisk tweaks (MiSfit)
+* Added FileManager to open source
+* ScreenBrightness set to 30%
+* Allow non-Market apps to install by default
+
+===========3/4/12======================================================================== 
+* Updated all framework commits by AOSP
+* Change snap velocity in Launcher2 (thanks Jean-Babtiste Queru(Android))
+* Fix potential memory leak on error (Hossein Mohtasham)
+* Add Polling mechanism to Battery service (Daniel Fages)
+* Changed Stock Wallpaper
+* Reverted Battery icons to stock with charge cycles
+* Added Changelog to tenderloin source for system/etc
+* Added 1% battery charge increments (no numbers just stock icons modded)
+* Removed useless information in system.prop
+* Tweaked SmoothPagedView.java (may be reverted at some point back to original)
+* Fixed reboot (libcutils)
+* Testing a fix for Audio Distortion for amr-nb clip (Android)
+* Fixed dividers for LinearLayout (tab widget (Android))
+* Fixed broken toolchain build on mac
+* Added Stubbs for better compatibility (Android(Jean-Baptiste Queru))
+* Merged Misc stagefright codec tweaks originated from AOSP
+* Fixed wifi issue where you can shut off then turn on without reboot
+
+*************************** CREDITS ******************************************************
+Android (Jean-Babtiste Queru), Cyanogenmod, Dalingrin, Dees_troy, Evervolv, Team Kang, 
+TommyTomatoe, Leoisright, MiSfit, Chubbzlou, TMartin, MindSplit, jzen, Joker, XDA, Github
+
+******************************************************************************************
