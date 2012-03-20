@@ -57,10 +57,10 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/hp/tenderloin/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/hp/tenderloin/proprietary/etc/CHANGELOG.html.gz:system/etc \
-    vendor/hp/tenderloin/proprietary/etc/CLASSIC.html.gz:system/etc \
-    vendor/hp/tenderloin/proprietary/etc/classicnerd-changelog.html:system/etc \
-    vendor/hp/tenderloin/proprietary/etc/CLASSIC.html:system/etc \
+    vendor/hp/tenderloin/proprietary/etc/CHANGELOG.html.gz:system/etc/CHANGELOG.html.gz \
+    vendor/hp/tenderloin/proprietary/etc/CLASSIC.html.gz:system/etc/CLASSIC.html.gz \
+    vendor/hp/tenderloin/proprietary/etc/classicnerd-changelog.html:system/etc/classicnerd-changelog.html \
+    vendor/hp/tenderloin/proprietary/etc/CLASSIC.html:system/etc/CLASSIC.html \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
     vendor/hp/tenderloin/proprietary/etc/firmware/wm8958_mbc.wfw:system/etc/firmware/wm8958_mbc.wfw \
