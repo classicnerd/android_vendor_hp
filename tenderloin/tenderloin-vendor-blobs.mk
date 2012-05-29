@@ -19,7 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/hp/tenderloin/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/hp/tenderloin/proprietary/lib/libaudio.so:obj/lib/libaudio.so \
     vendor/hp/tenderloin/proprietary/lib/libaudiopolicy.so:obj/lib/libaudiopolicy.so \
-	vendor/hp/tenderloin/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so
+    vendor/hp/tenderloin/proprietary/lib/liba2dp.so:obj/lib/liba2dp.so
 
 # Live wallpaper packages
 PRODUCT_PACKAGES := \
